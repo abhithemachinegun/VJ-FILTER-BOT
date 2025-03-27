@@ -208,7 +208,9 @@ Nᴀᴍᴇ - {}"""
 
     CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 
-<b> Size ⚙️: {file_size}</b>""" 
+<b> Size ⚙️: {file_size}
+
+➟ <a href="https://telegra.ph/How-To-Fix-Sound-Issue-01-14">🔇Fix Audio Issue</a></b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
