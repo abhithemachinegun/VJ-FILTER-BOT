@@ -212,6 +212,8 @@ Nᴀᴍᴇ - {}"""
 
 🍿𝐉𝐨𝐢𝐧 𝐍𝐨𝐰 ➟ t.me/atozmoviesflix
 
+🔴 𝙎𝙝𝙖𝙧𝙚 𝙬𝙞𝙩𝙝 𝙮𝙤𝙪𝙧 𝙛𝙧𝙞𝙚𝙣𝙙𝙨
+
 ➟ <a href="https://telegra.ph/How-To-Fix-Sound-Issue-01-14">🔇Fix Audio Issue</a></b>""" 
 
     IMDB_TEMPLATE_TXT = """
@@ -727,3 +729,4 @@ Example:- /set_caption 📕 File Name: {filename}
 
 
     
+
