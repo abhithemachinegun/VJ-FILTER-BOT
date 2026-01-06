@@ -67,7 +67,7 @@ OWNER_USERNAME = environ.get('OWNER_USERNAME', 'abhi_the_machinegun') # owner us
 
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/titaniummovieflix')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+jMnd5izAEz8wYjQ1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/atozmoviesflix')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/howtoopen113')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'titaniummovieflix') # Support Chat Link Without https:// or @
 
@@ -101,7 +101,7 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/howtoopen113')
 
 # Shortlink Info
-SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True))
+SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'gplinks.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'd0512170691b60126c30f16ebc491c8d04788f7b')
 
@@ -168,6 +168,7 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
 
