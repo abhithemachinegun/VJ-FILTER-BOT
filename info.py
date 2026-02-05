@@ -73,20 +73,20 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'titaniummovieflix') # Support Chat L
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
-PM_SEARCH = bool(environ.get('PM_SEARCH', True))
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+PM_SEARCH = bool(environ.get('PM_SEARCH', False))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
-AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
+AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "False")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "False")), True)
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MELCOW_NEW_USERS = is_enabled((environ.get('MELCOW_NEW_USERS', "True")), True)
 PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
-PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
+PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "False")), True)
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
@@ -168,6 +168,7 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
 # Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
 
 
