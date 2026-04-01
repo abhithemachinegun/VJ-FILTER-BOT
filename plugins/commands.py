@@ -455,12 +455,12 @@ async def start(client, message):
             if not await db.has_premium_access(message.from_user.id):
                 if not await check_verification(client, message.from_user.id) and VERIFY == True:
                     btn = [[
-                        InlineKeyboardButton("Premium Benifits", url="https://t.me/premium_advantage/2")
+                        InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                     ],[
-                        InlineKeyboardButton("Send Payment Screenshot", url="https://t.me/Player001robot")
+                        InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
                     ]]
                     await message.reply_text(
-                        text="<b>Buy premium to get movies!\nClick 👉/plan to buy premium </b>",
+                        text="<b>You are not verified !\nKindly verify to continue !</b>",
                         protect_content=True,
                         reply_markup=InlineKeyboardMarkup(btn)
                     )
@@ -528,12 +528,12 @@ async def start(client, message):
             if not await db.has_premium_access(message.from_user.id):
                 if not await check_verification(client, message.from_user.id) and VERIFY == True:
                     btn = [[
-                        InlineKeyboardButton(""Premium Benifits", url="https://t.me/premium_advantage/2")
+                        InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
                     ],[
-                        InlineKeyboardButton("Send Payment Screenshot", url="https://t.me/Player001robot")
+                        InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
                     ]]
                     await message.reply_text(
-                        text="<b>Buy premium to get movies!\nClick 👉/plan to buy premium </b>",
+                        text="<b>You are not verified !\nKindly verify to continue !</b>",
                         protect_content=True,
                         reply_markup=InlineKeyboardMarkup(btn)
                     )
@@ -600,12 +600,12 @@ async def start(client, message):
     if not await db.has_premium_access(message.from_user.id):
         if not await check_verification(client, message.from_user.id) and VERIFY == True:
             btn = [[
-                InlineKeyboardButton("Premium Benifits", url="https://t.me/premium_advantage/2")
+                InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start="))
             ],[
-                InlineKeyboardButton("Send Payment Screenshot", url="https://t.me/Player001robot")
+                InlineKeyboardButton("How To Open Link & Verify", url=VERIFY_TUTORIAL)
             ]]
             await message.reply_text(
-                text="<b>Buy premium to get movies!\nClick 👉/plan to buy premium </b>",
+                text="<b>You are not verified !\nKindly verify to continue !</b>",
                 protect_content=True,
                 reply_markup=InlineKeyboardMarkup(btn)
             )
